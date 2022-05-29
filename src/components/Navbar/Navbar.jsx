@@ -40,7 +40,7 @@ function Navbar(props) {
                 class={`nav-item  ${props.location.pathname === "/guide" ? "active" : ""
                   }`}
               >
-                <Link class="nav-link" to="/Astro">
+                <Link class="nav-link" to="/">
                   Porpoising F1
                 </Link>
               </li>
