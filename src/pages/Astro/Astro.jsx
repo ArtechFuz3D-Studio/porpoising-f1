@@ -25,7 +25,7 @@ const Blob = styled.div`
   z-index: 9999;
 `
 
-function Guide() {
+function Astro() {
   return (
     <CanvasContainer>
 
@@ -43,4 +43,4 @@ function Guide() {
   );
 }
 
-export default Guide;
+export default Astro;

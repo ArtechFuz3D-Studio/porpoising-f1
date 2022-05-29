@@ -8,7 +8,7 @@ import { Footer } from "./components/Footer"
 
 
 import { Welcome } from "./pages/Welcome";
-import { Guide } from "./pages/Guide";
+import { Astro } from "./pages/Astro";
 
 
 const CanvasContainer = styled.div`
@@ -26,9 +26,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Welcome} />
-          <Route path="/Guide" exact component={Guide} />
+          <Route path="/Astro" exact component={Astro} />
         </Switch>
-        
+
       </Router>
       <Footer />
     </CanvasContainer>
